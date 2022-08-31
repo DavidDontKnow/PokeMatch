@@ -80,7 +80,9 @@ const clickCard = (event) => {
     } else {
       matches++;
       if (matches === 8) {
-        console.log("winner");
+        setTimeout(async () => {
+          alert("You Won!");
+        }, 400);
       }
       firstPick = null;
       isPaused = false;
