@@ -45,7 +45,7 @@ const displayPokemon = (pokemon) => {
             <div class="front">
             </div>
             <div class="back rotated" style="background-color:${color}">
-                <img src="${pokemon.sprites.front_default}" alt="${pokemon.name}"/>
+                <img id="sprite" src="${pokemon.sprites.front_default}" alt="${pokemon.name}" />
                 <h2>${pokemon.name}</h2>
             </div>
         </div>

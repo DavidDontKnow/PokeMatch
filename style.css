@@ -1,6 +1,5 @@
 .container {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	/* letter-spacing: 5px; */
 	margin: 0 auto;
 	max-width: 800px;
 	padding: 20px;
@@ -42,7 +41,6 @@ header {
 	position: absolute;
 	backface-visibility: hidden;
 	transition: transform 0.5s;
-
 }
 
 .front {
@@ -64,4 +62,39 @@ button {
 	border: none;
 	padding: 10px 20px;
 	cursor: pointer;
+}
+
+/* // Small devices ( phones, up to 667px ) */
+@media (max-width: 667px) {
+
+	.container {
+		max-width: 500px;
+		padding: 10px;
+	}
+
+	#game {
+		display: grid;
+		grid-template-columns: repeat(4, 85px);
+		grid-template-rows: repeat(4, 85px);
+		grid-gap: 2px;
+	}
+
+	.front,
+	.back {
+		height: 85px;
+		width: 85px;
+	}
+
+	h2 {
+		font-size: 12px;
+		margin: 0;
+		padding: 0;
+	}
+
+	#sprite {
+		height: 60px;
+		width: 60px;
+		margin: 0;
+		padding: 0;
+	}
 }
