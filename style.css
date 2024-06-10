@@ -47,7 +47,7 @@ header {
 	background-image: url(./pokeball.png);
 	background-position: center;
 	background-repeat: no-repeat;
-	background-color: blue
+	background-color: rgb(52, 52, 155)
 }
 
 .rotated {
@@ -97,4 +97,11 @@ button {
 		margin: 0;
 		padding: 0;
 	}
+}
+
+.instructions {
+	margin-bottom: 5px;
+	font-size: small;
+	text-align: center;
+
 }

@@ -81,7 +81,7 @@ const clickCard = (event) => {
       matches++;
       if (matches === 8) {
         setTimeout(async () => {
-          alert("You Won!");
+          // alert("You Won!");
         }, 400);
       }
       firstPick = null;
